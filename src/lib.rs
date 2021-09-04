@@ -1,6 +1,7 @@
-pub mod instructions;
+pub mod instruction;
 pub mod processor;
 pub mod state;
+pub mod error;
 
 #[cfg(not(feature = "no-entrypoint"))]
 mod entrypoint;
